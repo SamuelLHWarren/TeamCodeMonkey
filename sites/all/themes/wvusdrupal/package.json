@@ -1,0 +1,28 @@
+{
+  "name": "wvusdrupaltheme",
+  "version": "1.0.0",
+  "description": "World Vision US base theme for Drupal ",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/wvus-ibu/wvusdrupal/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wvus-ibu/wvusdrupal.git"
+  },
+  "author": "Internet Business Unit, World Vision US",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/wvus-ibu/wvusdrupal/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-recess": "~0.5.0",
+    "grunt-contrib-compress": "~0.5.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}

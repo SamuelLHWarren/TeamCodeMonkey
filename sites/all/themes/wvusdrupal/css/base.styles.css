@@ -1,0 +1,730 @@
+/*
+* This files contains the css of the WVUS Drupal Base theme.  
+* It references the variables and mixins for the WVUS UiKit 
+* which is included in the base theme.  
+*/
+
+.wvus-uikit {
+  /*Variables*/
+
+  /* Navigation */
+
+  /* Dropdown specs */
+
+  /*
+* Any styles for the base theme templates should be included here 
+* 
+* @import 'path/to/component-styles.less';
+*/
+
+}
+
+.wvus-uikit .clearfix {
+  *zoom: 1;
+}
+
+.wvus-uikit .clearfix:before,
+.wvus-uikit .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.wvus-uikit .clearfix:after {
+  clear: both;
+}
+
+.wvus-uikit .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.wvus-uikit .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wvus-uikit .wv-navbar .nav {
+  margin-right: 0;
+}
+
+.wvus-uikit .wv-navbar .nav > li {
+  font-size: 14px;
+}
+
+.wvus-uikit .wv-navbar .nav > li:hover > ul,
+.wvus-uikit .wv-navbar .nav > li:focus > ul {
+  display: block;
+}
+
+.wvus-uikit .wv-navbar .nav > li:hover {
+  background-color: #ffeeda;
+  background-image: -moz-linear-gradient(top, #ffe3c2, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe3c2), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #ffe3c2, #ffffff);
+  background-image: -o-linear-gradient(top, #ffe3c2, #ffffff);
+  background-image: linear-gradient(to bottom, #ffe3c2, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffe3c2', endColorstr='#ffffffff', GradientType=0);
+}
+
+.wvus-uikit .wv-navbar .nav > li:hover > a {
+  color: #ff6600;
+  text-shadow: none;
+}
+
+.wvus-uikit .wv-navbar .nav > li > a {
+  padding: 15px 16px;
+  padding: 15px 14px\9\0;
+}
+
+.wvus-uikit .dropdown-menu {
+  padding: 20px;
+  margin: 0;
+  border: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.35);
+     -moz-box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.35);
+}
+
+.wvus-uikit .dropdown-menu > li > a {
+  padding: 0 0 10px 0;
+  font-size: 15px;
+  color: #006699;
+}
+
+.wvus-uikit .dropdown-menu > li > a:hover,
+.wvus-uikit .dropdown-menu > li > a:focus {
+  color: #006699;
+  text-decoration: underline;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=0);
+}
+
+.wvus-uikit .dropdown-menu .menu-title a {
+  font-family: 'Gill Sans W01 Bold', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.wvus-uikit .dropdown-menu .image-link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.wvus-uikit .dropdown-menu .image-link > a {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+}
+
+.wvus-uikit .menu-mlid-482 {
+  width: 138px;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu {
+  width: 279px;
+  min-height: 290px;
+  background: #ffffff url("../images/navigation/drop_bkgd_our_impact_v1.jpg") bottom right no-repeat;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu li {
+  width: 120px;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu .menu-mlid-492 {
+  position: absolute;
+  top: 48px;
+  right: 35px;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu .menu-mlid-493 {
+  position: absolute;
+  top: 76px;
+  right: 35px;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu .image-link {
+  width: 160px;
+}
+
+.wvus-uikit .menu-mlid-482 .dropdown-menu .image-link a {
+  height: 120px;
+}
+
+.wvus-uikit .menu-mlid-494 {
+  width: 180px;
+}
+
+.wvus-uikit .menu-mlid-494 > ul {
+  -moz-width: 272px;
+       width: 297px;
+  min-height: 170px;
+  background: #ffffff url("../images/navigation/drop_bkgd_sponsor_child_v1.jpg") bottom center no-repeat;
+}
+
+.wvus-uikit .menu-mlid-494 > ul .image-link {
+  width: 320px;
+}
+
+.wvus-uikit .menu-mlid-494 > ul .image-link a {
+  height: 115px;
+}
+
+.wvus-uikit .menu-mlid-495 {
+  width: 156px;
+}
+
+.wvus-uikit .menu-mlid-495 > ul {
+  width: 396px;
+  min-height: 170px;
+  background: #ffffff url("../images/navigation/drop_bkgd_ways_to_give_v1.jpg") bottom right no-repeat;
+}
+
+.wvus-uikit .menu-mlid-495 > ul > li {
+  float: left;
+  width: 170px;
+}
+
+.wvus-uikit .menu-mlid-495 > ul > li:first-child {
+  width: 100%;
+}
+
+.wvus-uikit .menu-mlid-495 > ul .image-link {
+  width: 160px;
+}
+
+.wvus-uikit .menu-mlid-495 > ul .image-link a {
+  height: 140px;
+}
+
+.wvus-uikit .menu-mlid-497 {
+  width: 154px;
+}
+
+.wvus-uikit .menu-mlid-497 > ul {
+  width: 239px;
+  min-height: 430px;
+  background: #ffffff url("../images/navigation/drop_bkgd_get_involved_v2.jpg") bottom center no-repeat;
+}
+
+.wvus-uikit .menu-mlid-497 > ul .get-involved-block {
+  margin-bottom: 10px;
+}
+
+.wvus-uikit .menu-mlid-497 > ul .image-link {
+  width: 279px;
+}
+
+.wvus-uikit .menu-mlid-497 > ul .image-link a {
+  height: 145px;
+}
+
+.wvus-uikit .menu-mlid-498 {
+  width: 124px;
+}
+
+.wvus-uikit .menu-mlid-498 > ul {
+  width: 397px;
+  min-height: 190px;
+  background: #ffffff url("../images/navigation/drop_bkgd_about_us_v2.jpg") bottom right no-repeat;
+}
+
+.wvus-uikit .menu-mlid-498 > ul > li {
+  float: left;
+  width: 170px;
+}
+
+.wvus-uikit .menu-mlid-498 > ul > li:first-child {
+  width: 100%;
+}
+
+.wvus-uikit .menu-mlid-498 > ul .image-link {
+  width: 110px;
+}
+
+.wvus-uikit .menu-mlid-498 > ul .image-link a {
+  height: 170px;
+}
+
+.wvus-uikit .menu-mlid-499 {
+  width: 180px;
+}
+
+.wvus-uikit .menu-mlid-499 > ul {
+  width: 266px;
+  min-height: 311px;
+  background: #ffffff url("../images/navigation/drop_bkgd_my_wv_v3.jpg") bottom right no-repeat;
+}
+
+.wvus-uikit .menu-mlid-499 > ul .image-link {
+  width: 309px;
+}
+
+.wvus-uikit .menu-mlid-499 > ul .image-link a {
+  height: 180px;
+}
+
+.wvus-uikit #page-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Gill Sans W01 Book', Arial, sans-serif;
+  background: url("../images/footer/bkgd_hills_btm_v1.jpg") bottom center no-repeat;
+  background-size: cover;
+}
+
+.wvus-uikit #page-footer .footer-menu {
+  float: left;
+  width: 188px;
+}
+
+.wvus-uikit #page-footer .footer-menu #social-links a {
+  text-decoration: none;
+}
+
+.wvus-uikit #page-footer .footer-menu #social-links a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+.wvus-uikit #page-footer .footer-menu li.phone-number {
+  color: #2D78AB;
+}
+
+.wvus-uikit #page-footer div.span5 {
+  float: left;
+  width: 355px;
+}
+
+.wvus-uikit #page-footer div.span5 address {
+  float: left;
+  line-height: 17px;
+}
+
+.wvus-uikit #page-footer div.span5 .business {
+  float: left;
+  width: 170px;
+  height: 43px;
+  margin: 5px 0 0 20px;
+  text-align: right;
+}
+
+.wvus-uikit #page-footer div.span5 .business a {
+  display: inline-block;
+  height: 43px;
+  text-align: left;
+  text-indent: -999px;
+}
+
+.wvus-uikit #page-footer div.span5 .business a:hover {
+  background-position: left bottom;
+}
+
+.wvus-uikit #page-footer div.span5 .business .ecfa_logo {
+  width: 44px;
+  background: url(../images/footer/logo_ecfa_v1.png) 0 0 no-repeat;
+}
+
+.wvus-uikit #page-footer div.span5 .business .bbb_logo {
+  width: 30px;
+  margin-left: 2px;
+  background: url(../images/footer/logo_bbb_v1.png) 0 0 no-repeat;
+}
+
+.wvus-uikit #page-footer div.span5 .business .cn_logo {
+  width: 78px;
+  margin-left: 6px;
+  background: url(../images/footer/logo_cn_v1.png) 0 0 no-repeat;
+}
+
+.wvus-uikit #page-footer div.span5 p {
+  clear: both;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.wvus-uikit #page-footer div.span7 {
+  width: 565px;
+}
+
+.wvus-uikit #page-footer .blog-icon-li {
+  vertical-align: top;
+}
+
+.wvus-uikit #page-footer .blog-icon-li .blog-icon {
+  display: block;
+  width: 49px;
+  height: 25px;
+  padding-right: 0;
+  overflow: hidden;
+  color: transparent;
+  text-indent: -999px;
+  background: url("../images/footer/icon_blog_footer_v1.png") no-repeat top left;
+}
+
+.wvus-uikit #page-footer .blog-icon-li .blog-icon:hover,
+.wvus-uikit #page-footer .blog-icon-li .blog-icon:focus {
+  background: url("../images/footer/icon_blog_footer_v1.png") no-repeat bottom left;
+}
+
+.wvus-uikit #page-footer #subscription-email {
+  width: 148px;
+}
+
+.wvus-uikit #page-footer #footer-subscription-form {
+  z-index: -999;
+  width: 163px;
+  padding: 5px;
+  background-color: #d5e4ee;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.wvus-uikit #page-footer .container ul li {
+  font-size: 14px;
+}
+
+.wvus-uikit #page-footer .container ul li:first-child > a {
+  font-family: 'Gill Sans W01 Bold', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.wvus-uikit #page-footer .container ul li ul li:first-child > a {
+  font-family: 'Gill Sans W01 Book', Arial, sans-serif;
+  font-weight: normal;
+}
+
+.wvus-uikit #page-footer address {
+  float: left;
+  font-size: 14px;
+}
+
+.wvus-uikit #page-footer address > span {
+  font-family: 'Gill Sans W01 Bold', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.wvus-uikit #page-footer p {
+  font-size: 14px;
+}
+
+.wvus-uikit #page-footer .piechart a {
+  display: block !important;
+  float: left;
+  width: 157px;
+  height: 157px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #333333;
+  text-align: left;
+  text-indent: -999px;
+  background: url("../images/footer/piechart_2014_v1.png") no-repeat;
+}
+
+.wvus-uikit #page-footer .piechart a:hover,
+.wvus-uikit #page-footer .piechart a:focus {
+  text-decoration: none;
+}
+
+.wvus-uikit #page-footer.uneditable-input {
+  width: 100px;
+}
+
+.wvus-uikit #page-footer #footer-trust {
+  margin-left: 10px;
+}
+
+.wvus-uikit #page-footer #footer-trust h3 {
+  margin-top: 0;
+}
+
+.wvus-uikit #page-footer #footer-logos {
+  margin: 0;
+}
+
+.wvus-uikit #page-footer #footer-logos li {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.wvus-uikit #page-footer #footer-logos li a {
+  display: block;
+  height: 44px;
+  overflow: hidden;
+  text-indent: -999px;
+  background: transparent url('../images/footer/logos_businesses_v2.png') no-repeat 0 0;
+}
+
+.wvus-uikit #page-footer #footer-logos li a#logo-ecfa {
+  width: 48px;
+  background-position: 0 0;
+}
+
+.wvus-uikit #page-footer #footer-logos li a#logo-bbb {
+  width: 29px;
+  background-position: -49px 0;
+}
+
+.wvus-uikit #page-footer #footer-logos li a#logo-cn {
+  width: 76px;
+  background-position: -80px 0;
+}
+
+.wvus-uikit #page-footer .icon-usa-flag {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999px;
+  background: url("../images/footer/usa_flag.png") 0 0 no-repeat;
+}
+
+.wvus-uikit #page-footer .trust-content {
+  float: left;
+  width: 398px;
+  margin-left: 7px;
+}
+
+.wvus-uikit #page-footer .trust-content ul.pie-data {
+  position: absolute;
+  float: left;
+  width: 190px;
+  padding-left: 40px;
+  margin-left: 0;
+  list-style: none;
+  background: url(../images/footer/pie-data-blocks.png) 0 5px no-repeat;
+}
+
+.wvus-uikit #page-footer .trust-content ul.pie-data li {
+  margin-top: -2px;
+  line-height: 27px;
+}
+
+.wvus-uikit #page-footer .trust-content p.every-dollar {
+  float: right;
+  width: 160px !important;
+  padding-left: 75px;
+  margin: -7px 0 0 175px !important;
+  background: url(../images/footer/dollar.png) 0 5px no-repeat;
+}
+
+.wvus-uikit #page-header #logo-box {
+  height: 98px;
+  margin-left: -19px;
+}
+
+.wvus-uikit #page-header #logo-box #logo {
+  margin-top: 16px;
+  margin-left: 60px;
+}
+
+.wvus-uikit #page-header #logo-box #logo a {
+  display: block;
+  width: 149px;
+  height: 58px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url('../images/header/logo_world_vision.png') top left no-repeat;
+}
+
+.wvus-uikit #page-header #logo-box #logo a:hover,
+.wvus-uikit #page-header #logo-box #logo a:focus {
+  background-position: bottom left;
+}
+
+.wvus-uikit #page-header #logo-box #slogan {
+  width: 255px;
+  margin-top: 47px;
+  margin-left: 30px;
+  font-family: 'Gill Sans W01 Light', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.wvus-uikit #page-header #logo-box #slogan a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.wvus-uikit #page-header #logo-box #slogan a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+.wvus-uikit #page-header #service-box #eco-sso li:last-child {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.wvus-uikit #page-header #service-box #eco-sso li a {
+  font-size: 13px;
+  color: #000000;
+}
+
+.wvus-uikit #page-header #service-box #header-cart-count {
+  text-decoration: none;
+}
+
+.wvus-uikit #page-header #service-box #header-cart-count:hover .link-underline {
+  text-decoration: underline;
+}
+
+.wvus-uikit #page-header #service-box #header-cart-count:hover i {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+.wvus-uikit #page-header #service-box #social-media {
+  width: 170px;
+  margin-top: 5px;
+}
+
+.wvus-uikit #page-header #service-box #social-media a {
+  text-decoration: none;
+}
+
+.wvus-uikit #page-header #service-box #social-media a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+.wvus-uikit #page-header #service-box #social-media .blog-icon-li {
+  vertical-align: middle;
+}
+
+.wvus-uikit #page-header #service-box #social-media .blog-icon {
+  display: block;
+  width: 46px;
+  height: 19px;
+  padding-right: 0;
+  color: transparent;
+  background: url("../images/header/icon_blog_header_v2.png") top left;
+}
+
+.wvus-uikit #page-header #service-box #social-media .blog-icon:hover,
+.wvus-uikit #page-header #service-box #social-media .blog-icon:focus {
+  background: url("../images/header/icon_blog_header_v2.png") bottom left;
+}
+
+.wvus-uikit #page-header #service-box #social-media li {
+  padding-right: 0;
+  padding-left: 2px;
+  font-size: 13px;
+}
+
+.wvus-uikit #page-header #service-box #social-media li .icon-stack {
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+}
+
+.wvus-uikit #page-header #service-box #search-form {
+  width: 380px;
+  margin: 10px 0 0 60px;
+}
+
+.wvus-uikit #page-header #service-box #search-form #search-keyword {
+  width: 310px;
+}
+
+.wvus-uikit #page-header #service-box #search-form #edit-search-submit {
+  margin: 5px 0 0 0;
+}
+
+.wvus-uikit #page-header #service-box #search-form button {
+  font-size: 1em;
+  color: #ff6600;
+  background: none;
+  border: none;
+}
+
+.wvus-uikit #page-header #service-box #search-form button:hover {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+.wvus-uikit #page-header #service-box #header-sign-in {
+  text-transform: uppercase;
+}
+
+.wvus-uikit #page-header #service-box .icon-shopping-cart {
+  margin-right: 10px;
+  color: #999999;
+}
+
+.wvus-uikit .form-required {
+  color: #ff6600;
+}
+
+.wvus-uikit .left-form .controls {
+  margin-left: 90px;
+}
+
+.wvus-uikit .left-form .control-label {
+  width: 90px;
+  text-align: left;
+}
+
+.wvus-uikit .left-form textarea {
+  width: 368px;
+  height: 100px;
+}
+
+.wvus-uikit .comment-count {
+  margin-left: 10px;
+}
+
+.wvus-uikit .by-line {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.wvus-uikit #comment-form .form-type-checkbox {
+  width: auto;
+  *zoom: 1;
+}
+
+.wvus-uikit #comment-form .form-type-checkbox:before,
+.wvus-uikit #comment-form .form-type-checkbox:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.wvus-uikit #comment-form .form-type-checkbox:after {
+  clear: both;
+}
+
+.wvus-uikit #comment-form .form-type-checkbox label {
+  width: auto;
+}
+
+.wvus-uikit .error {
+  color: #ff0000;
+}

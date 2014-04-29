@@ -1,0 +1,2 @@
+# Ignore files created as local installation of project for grunt
+node_modules/*

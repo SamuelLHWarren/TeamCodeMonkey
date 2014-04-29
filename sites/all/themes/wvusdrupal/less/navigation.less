@@ -1,0 +1,187 @@
+/* Navigation */
+.wv-navbar .nav {
+margin-right: 0;
+  > li {
+    font-size: 14px;
+    &:hover > ul,
+    &:focus > ul{
+      display: block;
+    }
+    &:hover {
+      > a {
+        color: @wvnavbarLinkHover;
+        text-shadow: none;
+      }
+
+      #gradient > .vertical(lighten(@wvnavbarBackgroundHighlight, 30%), @wvnavbarLinkBackgroundHover);
+    }
+    > a {
+      padding: 15px 16px;
+      padding: 15px 14px\9\0; //IE9 only hack to stop li from wrapping
+    }
+  }
+}
+.dropdown-menu {
+  margin: 0;
+  border: none;
+  padding: 20px;
+  .border-radius(0);
+  .box-shadow(5px 5px 9px rgba(0,0,0,0.35));
+  > li > a {
+    padding: 0 0 10px 0;
+    color: @wv-blue;
+    font-size: 15px;
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      text-decoration: underline;
+      color: @wv-blue;
+      #gradient > .vertical(rgba(0,0,0,0),rgba(0,0,0,0));
+    }
+  }
+  .menu-title a {
+    font-family: 'Gill Sans W01 Bold', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .image-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    > a {
+      color: transparent;
+      font-size: 0;
+      line-height: 0;
+    }
+  }
+}
+
+.float-columns(@width) {
+  > li {
+    float: left;
+    width: @width;
+    &:first-child {
+      width: 100%;
+    }
+  }
+}
+
+
+
+/* Dropdown specs */
+// Our Impact
+.menu-mlid-482 {
+  width: 138px;
+  .dropdown-menu {
+    width: 279px;
+    min-height: 290px;
+    background: #fff url("../images/navigation/drop_bkgd_our_impact_v1.jpg") bottom right no-repeat;
+    li {
+      width: 120px;
+    }
+
+    // Country Profiles Link
+    .menu-mlid-492{
+      position: absolute;
+      top: 48px;
+      right: 35px;
+    }
+    // Faith In Action link
+    .menu-mlid-493{
+      position: absolute;
+      top: 76px;
+      right: 35px;
+    }
+    .image-link {
+      width: 160px;
+      a{
+        height: 120px;
+      }
+    }
+  }
+}
+// Sponsor a child
+.menu-mlid-494 {
+  width: 180px;
+   > ul {
+    width: 297px;
+    -moz-width: 272px;
+    min-height: 170px;
+    background: #fff url("../images/navigation/drop_bkgd_sponsor_child_v1.jpg") bottom center no-repeat;
+    .image-link {
+      width: 320px;
+      a{
+        height: 115px;
+      }
+    }
+  }
+}
+
+// ways to give
+.menu-mlid-495 {
+  width: 156px;
+  > ul {
+    width: 396px;
+    min-height: 170px;
+    background: #fff url("../images/navigation/drop_bkgd_ways_to_give_v1.jpg") bottom right no-repeat;
+    .float-columns(170px);
+    .image-link {
+      width: 160px;
+      a{
+        height: 140px;
+      }
+    }
+  }
+}
+
+// get involved
+.menu-mlid-497 {
+  width: 154px;
+  > ul {
+    width: 239px;
+    min-height: 430px;
+    background: #fff url("../images/navigation/drop_bkgd_get_involved_v2.jpg") bottom center no-repeat;
+    .get-involved-block{
+      margin-bottom: 10px;
+    }
+    .image-link {
+      width: 279px;
+      a{
+        height: 145px;
+      }
+    }
+  }
+}
+
+//about us
+.menu-mlid-498 {
+  width: 124px;
+  > ul {
+    width: 397px;
+    min-height: 190px;
+    background: #fff url("../images/navigation/drop_bkgd_about_us_v2.jpg") bottom right no-repeat;
+    .float-columns(170px);
+    .image-link {
+      width: 110px;
+      a{
+        height: 170px;
+      }
+    }
+  }
+}
+
+// my world vision
+.menu-mlid-499 {
+  width: 180px;
+   > ul {
+    width: 266px;
+    min-height: 311px;
+    background: #fff url("../images/navigation/drop_bkgd_my_wv_v3.jpg") bottom right no-repeat;
+    .image-link {
+      width: 309px;
+      a{
+        height: 180px;
+      }
+    }
+  }
+}

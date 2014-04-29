@@ -1,0 +1,130 @@
+#page-header{
+  #logo-box {
+    height: 98px;
+    margin-left: -19px;
+    #logo{
+      margin-top: 16px;
+      margin-left: 60px;
+      a {
+        background: url('../images/header/logo_world_vision.png') top left no-repeat;
+        display: block;
+        width: 149px;
+        height: 58px;
+        overflow: hidden;
+        text-indent: -9999px;
+        &:hover,
+        &:focus {
+          background-position: bottom left;
+        }
+      }
+    }
+
+    #slogan {
+      width: 255px;
+      margin-top: 47px;
+      margin-left: 30px;
+      font-size: 16px;
+      font-family: 'Gill Sans W01 Light', Arial, sans-serif;
+      a {
+        text-decoration: none;
+        color: #000000;
+        &:hover {
+          text-decoration: none;
+          .opacity(75);
+        }
+      }
+    }
+  }
+
+  #service-box {
+    #eco-sso {
+      li {
+        &:last-child {
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        a {
+          font-size: 13px;
+          color: #000000;
+        }
+      }
+    }
+
+    #header-cart-count {
+      text-decoration: none;
+      &:hover .link-underline {
+        text-decoration: underline;
+      }
+      &:hover i{
+        .opacity(75);
+      }
+    }
+
+    #social-media {
+      margin-top: 5px;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+          .opacity(75);
+        }
+      }
+      width: 170px; // hack to get the BLOG img and link to line up
+      .blog-icon-li{
+        vertical-align: middle;
+      }
+      .blog-icon{
+        background: url("../images/header/icon_blog_header_v2.png") top left;
+        display: block;
+        color: transparent;
+        width: 46px;
+        height: 19px;
+        padding-right: 0;
+        &:hover,
+        &:focus{
+          background: url("../images/header/icon_blog_header_v2.png") bottom left;
+        }
+      }
+      li{
+        .icon-stack{
+          width: 1em;
+          height: 1em;
+          line-height: 1em;
+
+        }
+        padding-left: 2px;
+        padding-right: 0;
+        font-size: 13px;
+      }
+    }
+
+    #search-form {
+      margin: 10px 0 0 60px;
+      width: 380px;
+      #search-keyword{
+        width: 310px;
+      }
+      #edit-search-submit {
+        margin: 5px 0 0 0;
+      }
+      button {
+        background:none;
+        border:none;
+        font-size:1em;
+        color: @wv-orange;
+        &:hover{
+          .opacity(75);
+        }
+      }
+    }
+    #header-sign-in{
+      text-transform: uppercase;
+    }
+    .icon-shopping-cart {
+      margin-right: 10px;
+      color: @grayLight;
+    }
+  }
+}
